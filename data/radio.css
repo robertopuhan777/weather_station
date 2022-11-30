@@ -1,0 +1,63 @@
+/* Popup container - can be anything you want */
+.popup {
+  position: fixed;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index:89898989;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 365px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 0px;
+  position: fixed;
+  top: 250%;
+  left: 50%;
+  margin-left: 0px;
+  padding:5px;
+  border-radius:5px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:89898989;
+
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  margin-left: 0px;
+ border:none;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+    z-index:0;
+opacity: 0.95;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 0.95;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:0.95 ;}
+}

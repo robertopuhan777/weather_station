@@ -1,0 +1,369 @@
+@font-face {
+  	font-family: 'Oxanium', sans-serif; 
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Oxanium", sans-serif;
+  line-height: 1;
+}
+
+body {
+  background-color: inherit;
+  overflow: hidden;
+  color:inherit;
+  margin: 0;
+  padding: 0;
+}
+.Home-div-1{
+position:absolute;
+text-align:center;	
+top:5%;
+left:50%;
+transform:translateX(-50%);
+width:50%;
+width:350px;
+  font-size: 22px;
+
+}
+.Weather-div-1{
+position:absolute;
+text-align:center;	
+top:5%;
+transform:translateY(-50%);
+left:50%;
+transform:translateX(-50%);
+width:50%;
+width:350px;
+  font-size: 22px;
+
+}
+.Sun-div-1{
+position:fixed;
+text-align:center;
+bottom:0%;	
+left:50%;
+transform:translateX(-50%);	
+width:550px;
+height:550px;
+  font-size: 22px;
+  overflow:hidden;
+background:inherit;
+z-index:-1;
+}
+.Moon-div-1{
+position:fixed;
+text-align:center;
+bottom:15%;	
+left:50%;
+transform:translateX(-50%);	
+width:550px;
+height:550px;
+  font-size: 22px;
+  overflow:hidden;
+  background:inherit;
+  z-index:-1;
+}
+.myFrame{
+    position: inherit;
+    border: none;
+    overflow: hidden;
+    cursor: none;
+    width:520px;
+	height:520px;
+	
+}
+.Radio-div-1{
+position:absolute;
+text-align:center;	
+top:10%;
+left:50%;
+transform:translateX(-50%);
+width:350px;
+font-size: 22px;
+}
+.Sensor-div-1{
+position:absolute;
+text-align:center;	
+top:10%;
+left:50%;
+transform:translateX(-50%);
+width:350px;
+font-size:15px;
+}
+.Sliders-div-1{
+position:fixed;
+text-align:center;	
+top:0%;
+width:1024px;
+height:768px;
+}
+.table{
+width:80%;		
+}
+.tr{
+width:78%;
+}
+.td{
+width:50%;	
+}
+.sec1{
+  margin-top: 50%;
+	 width:100%;
+
+}
+.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+  width: 100%;margin: 1px 0 0;
+}
+.sec2{
+  width: 100%;
+  
+}
+.button:focus{
+	outline:none;
+}
+.button{
+	left:50%;
+	transform:translateX(-50%);
+	cursor:pointer;
+	z-index:-1;
+}
+.button1:focus{
+	outline:none;
+}
+.button1{
+	left:50%;
+	transform:translateX(-50%);
+	cursor:pointer;
+	z-index:-1
+}
+.iframe{
+	position:fixed;
+	left:50%;transform:translateX(-50%);
+	bottom:0px;
+	font-size:10px;
+	height:27px;
+	width:300px;
+	border:none;
+	overflow:hidden;
+}
+.iframe1{
+	top: 20px;
+    position: fixed;
+    left: -5px;
+    font-size: 10px;
+    height: 27px;
+    width: 200px;
+    border: none;
+    overflow: hidden;
+    cursor: none;
+}
+.iframe11{
+	top: 5px;
+    position: fixed;
+    left: -5px;
+    font-size: 10px;
+    height: 100%;
+    width: 100%%;
+    border: none;
+    overflow: hidden;
+    cursor: none;
+}
+.sphere {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+.hemisphere {
+    width: 50%;
+    height: 100%;
+}
+
+.light {
+    background-color: #ffffff;
+}
+
+.dark {
+    background-color: #000000;
+}
+.wind{
+	overflow:hidden;
+	border:none;
+	height:275px;
+	width:275px;
+	font-family:'Oxanium';
+}
+.wind2{
+	overflow:hidden;
+	border:none;
+	height:285px;
+	width:280px;
+	font-family:'Oxanium';
+}
+.canvas{
+	
+	font-family:'Oxanium';
+}
+.sidebar-navigation {
+  display: inline-block;
+  min-height: 100vh;
+  width: -60px;
+  background-color: transparent;
+  float: left;
+  position:fixed;
+  top:30%;
+  padding-left:0px;
+  z-index:20000;
+  }
+ .sec1{
+  margin-top: 50%;
+	 width:350px;
+
+}
+.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+  width: 100%;margin: 1px 0 0;
+}
+.sec2{
+  width: 100%;
+  
+}
+.weather_img,.weather_text{
+    float: left;
+}
+.weather_img{
+  width: 25%;
+}
+.image{
+}
+.weather_img img{
+  width: 100%;
+  max-width: 120px;
+  margin-top: 50px;
+}
+.weather_text{
+    text-align: right;
+    width: 75%;
+    font-size: 22px;
+    margin-top: 19px;
+    line-height: 26px;
+}
+.clr{
+    clear:both;
+}
+.fancy {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.fancy2_sec .subtitle{
+    line-height: 26px;
+}
+
+.fancy p span {
+    display: inline-block;
+    position: relative;
+    color: #ababab;
+}
+.fancy p span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy p span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.fancy p span:before, .fancy p span:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    border-bottom: 1px solid #ababab;
+    top: 0;
+    width: 40px;
+}
+.wob_t{
+font-family: 'Oxanium', sans-serif;
+    font-size:26px;
+}
+.pre_alt{
+    color: #ababab;
+}
+.pre_alt span{
+    font-family: 'Oxanium', sans-serif;
+    font-size: 15px;
+}
+.font_fam{
+    font-family: 'Oxanium', sans-serif;
+    margin-left: 8px;
+    text-align: left;
+}
+.temp_num,.temp_num1,.temp_num2,.temp_num3,.temp_num4,.temp_num5,.temp_num6,.temp_num7,.temp_num8,.temp_num9,{margin-top:0px;}
+
+.temp_num3 .wob_t{font-size: 26px;}
+
+.point_para{font-size: 26px;letter-spacing: -4px;font-family: 'Oxanium', sans-serif;}
+
+.wob_per{font-size: 22px;font-family: 'Oxanium', sans-serif;}
+
+.celsius{margin-left:5px;font-size: 22px;font-family: 'Oxanium', sans-serif;}
+.sidebar-navigation ul {
+  text-align: center;
+  color: inherit;
+}
+.sidebar-navigation ul li {
+  padding: 0;
+  cursor: pointer;
+  transition: all ease-out 120ms;
+  outline:none;
+}
+.sidebar-navigation ul li i {
+  display: block;
+  font-size: 24px;
+  transition: all ease 450ms;
+}
+.sidebar-navigation ul li .tooltip {
+  display: inline-block;
+  position: absolute;
+  background-color: #ED6E4C;
+  border-radius: 3px;
+  margin-top: -26px;
+  left: 90px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  
+}
+.sidebar-navigation ul li .tooltip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -4px;
+  top: 10px;
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+}
+.sidebar-navigation ul li:hover {
+  background-color: none;
+}
+.sidebar-navigation ul li:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.sidebar-navigation ul li.active {
+  background-color: inherit;
+}
+.sidebar-navigation ul li.active i {
+  color: #ED6E4C;
+}

@@ -1,0 +1,141 @@
+@font-face {
+  	font-family: 'Oxanium', sans-serif; 
+
+}
+body{
+	font-family: 'Oxanium', sans-serif; 
+    
+}
+p{margin:0;padding:0;}
+#bg_mob{
+    max-width: 540px;
+    margin:0 auto;
+    height:100%;
+}
+.button{
+	left:50%;
+	transform:translateX(-50%);
+	cursor:pointer;
+	z-index:-1;
+}
+.button1{
+	left:50%;
+	transform:translateX(-50%);
+	cursor:pointer;
+	z-index:-1
+}
+.iframe{
+	position:fixed;
+	left:50%;transform:translateX(-50%);
+	bottom:0px;
+	font-size:10px;
+	height:27px;
+	width:300px;
+	border:none;
+	overflow:hidden;
+}
+.iframe1{
+	top: 20px;
+    position: fixed;
+    left: -5px;
+    font-size: 10px;
+    height: 27px;
+    width: 200px;
+    border: none;
+    overflow: hidden;
+    cursor: none;
+}
+}
+.mob_inner{
+    padding: 10px;
+}
+.sec1{
+  margin-top: 50%;
+	 width:350px;
+
+}
+.sec3,.sec4,.sec5,.sec6,.sec7,.sec8{
+  width: 100%;margin: 1px 0 0;
+}
+.sec2{
+  width: 100%;
+  
+}
+.weather_img,.weather_text{
+    float: left;
+}
+.weather_img{
+  width: 25%;
+}
+.image{
+}
+.weather_img img{
+  width: 100%;
+  max-width: 120px;
+  margin-top: 50px;
+}
+.weather_text{
+    text-align: right;
+    width: 75%;
+    font-size: 22px;
+    margin-top: 19px;
+    line-height: 26px;
+}
+.clr{
+    clear:both;
+}
+.fancy {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.fancy2_sec .subtitle{
+    line-height: 26px;
+}
+
+.fancy p span {
+    display: inline-block;
+    position: relative;
+    color: #ababab;
+}
+.fancy p span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy p span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.fancy p span:before, .fancy p span:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    border-bottom: 1px solid #ababab;
+    top: 0;
+    width: 40px;
+}
+.wob_t{
+font-family: 'Oxanium', sans-serif;
+    font-size:26px;
+}
+.pre_alt{
+    color: #ababab;
+}
+.pre_alt span{
+    font-family: 'Oxanium', sans-serif;
+    font-size: 15px;
+}
+.font_fam{
+    font-family: 'Oxanium', sans-serif;
+    margin-left: 8px;
+    text-align: left;
+}
+.temp_num,.temp_num1,.temp_num2,.temp_num3,.temp_num4,.temp_num5,.temp_num6,.temp_num7,.temp_num8,.temp_num9,{margin-top:0px;}
+
+.temp_num3 .wob_t{font-size: 26px;}
+
+.point_para{font-size: 26px;letter-spacing: -4px;font-family: 'Oxanium', sans-serif;}
+
+.wob_per{font-size: 22px;font-family: 'Oxanium', sans-serif;}
+
+.celsius{margin-left:5px;font-size: 22px;font-family: 'Oxanium', sans-serif;}

@@ -1,0 +1,11 @@
+﻿<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxanium">    
+</head>
+<body style="color:black;text-shadow:1px 1px #ffffff;font-family:'Oxanium',sans-serif;">
+<div style='float:left;' id='MyClockDisplay'></div>
+<script>function showTime(){var date = new Date();var h = date.getHours();var m = date.getMinutes();var s = date.getSeconds();h = (h < 10) ? '0' + h : h;m = (m < 10) ? '0' + m : m;s = (s < 10) ? '0' + s : s;var time = h + ':' + m + ':' + s + ' ' ;document.getElementById('MyClockDisplay').innerText = time;document.getElementById('MyClockDisplay').textContent = time;setTimeout(showTime, 1000);}showTime();</script>
+</body>
+</html>

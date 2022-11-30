@@ -1,0 +1,20 @@
+.div {
+  position:relative;
+  top:250px;
+  overflow:hidden;
+  width:100%;
+  margin-left:-10px;
+  }
+  * {
+  margin: 0;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  margin-top:0px;
+
+}
+.box:before {
+content:"\1F53A";
+}
